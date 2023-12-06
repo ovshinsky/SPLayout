@@ -28,7 +28,7 @@ if __name__ == "__main__":
     Air = "etch"
 
     ## initialize the simulation frame
-    fdtd = FDTDSimulation(fdtd_path="C:\\Program Files\\Lumerical\\v202\\api\\python")
+    fdtd = FDTDSimulation(fdtd_path="C:\\Program Files\\Lumerical\\v231\\api\\python")
 
     ## draw the silicon-oxide substrate and waveguides into the gdsii file
     waveguide_input = Waveguide(Point(-design_region_length / 2 - waveguide_length, 0),
